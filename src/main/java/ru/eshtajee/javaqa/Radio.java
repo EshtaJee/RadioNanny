@@ -26,7 +26,7 @@ public class Radio {
         if (newCurrentStation < 9) {
             currentStation = newCurrentStation + 1;
         }
-        if (newCurrentStation > 9) {
+        if (newCurrentStation >= 9) {
             currentStation = 0;
         }
     }
